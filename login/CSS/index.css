@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 头部 */
+.header-top {
+  height: 30px;
+  background-color: #f5f5f5;
+}
+.h-top-left {
+  float: left;
+  margin-left: 280px;
+  color: #979797;
+  font-size: 10px;
+  margin-top: 10px;
+}
+.h-top-right {
+  float: right;
+  margin-right: 60px;
+  font-size: 12px;
+  margin-top: 8px;
+}
+a {
+  text-decoration: none;
+}
+.look {
+  color: blue;
+}
+.look:hover {
+  color: rgb(0, 200, 255);
+}
+/* 头部中 */
+.header-center {
+  height: 90px;
+}
+.logo img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  margin-left: 200px;
+  margin-top: 15px;
+}
+.photo img {
+  float: right;
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  margin-right: 66px;
+  margin-top: 8px;
+}
+.header-search {
+  text-align: center;
+  padding-top: 20px;
+}
+.t_input {
+  width: 400px;
+  height: 30px;
+  border: 2px solid black;
+}
+.t_button {
+  height: 30px;
+  width: 40px;
+  background-color: gainsboro;
+  color: orange;
+  margin-top: 2px;
+  margin-left: 8px;
+}
+.hot a {
+  margin-left: 3px;
+  color: #979797;
+}
+/* 头部尾 */
+.header-footer {
+  height: 40px;
+  border-bottom: #060 2px solid;
+  background-color: #690;
+  width: 1040px;
+  margin-left: 130px;
+  border-radius: 20px;
+}
+.header-footer ul {
+  list-style: none;
+  line-height: 40px;
+}
+.header-footer li {
+  display: block;
+  float: left;
+}
+.header-footer a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding-left: 100px;
+}
+/* 中间大屏 */
+#ad{
+    margin-left: 120px;
+    width: 1060px;
+    height: 500px;
+    background-color: #F5F5F5;
+    position:relative;
+}
+#ad li{
+    list-style:none;
+}
+#ad_num{
+    overflow:hidden;
+    list-style:none;
+    position: absolute;
+    bottom:10px;
+    right:280px;
+}
+#ad_num li{
+    margin:0px 5px;
+    padding:3px 10px;
+    border: rgb(225, 255, 0) solid 1px;
+    float:left;
+}
+#ad_num li:hover{
+    border: rgb(0, 148, 153) solid 2px;
+}
+/* 中间2 */
+#ad_header{
+    margin-top: 10px;
+    margin-left: 120px;
+    width: 1060px;
+    height: 200px;
+    background-color: #F5F5F5;
+    position:relative;
+}
+#ad_header li{
+    list-style:none;
+}
+#ad_num1{
+    overflow:hidden;
+    list-style:none;
+    position: absolute;
+    bottom:10px;
+    right:280px;
+}
+#ad_num1 li{
+    margin:0px 5px;
+    padding:3px 10px;
+    border: #fff solid 1px;
+    float:left;
+    color: rgb(102, 0, 32);
+}
+#ad_num1 li:hover{
+    border: rgb(59, 153, 0) solid 2px;
+}

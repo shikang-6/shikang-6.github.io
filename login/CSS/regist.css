@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* 头部 */
+#header {
+  height: 88px;
+  box-shadow: 0px 0px 10px blue;
+}
+#header .reg_header {
+  width: 800px;
+  height: 88px;
+  margin: 0 auto;
+}
+.reg_header img {
+  float: left;
+  width: 60px;
+  height: 60px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.reg_header p {
+  text-align: center;
+  background-color: rgb(51, 153, 153);
+  width: 600px;
+  float: left;
+  margin-top: 20px;
+  margin-left: 80px;
+  border: 1px solid yellow;
+  height: 40px;
+  font-size: 20px;
+  padding-top: 5px;
+}
+/* 注册 */
+#reg-all {
+  width: 1000px;
+  height: 480px;
+  border: 8px solid #eeeeee;
+  background: white;
+  margin: auto;
+  margin-top: 20px;
+}
+.reg-lef {
+  float: left;
+  margin: 10px;
+}
+.reg-lef > p:first-child {
+  /*设置段落（新用户注册）颜色和字体大小*/
+  color: gray;
+  font-size: 15px;
+}
+
+.reg-lef > p:last-child {
+  /*设置段落（USER REGISTER）颜色和字体大小*/
+  color: #a6a6a6;
+  font-size: 15px;
+}
+.reg-center {
+  float: left;
+  width: 450px;
+  margin-left: 50px;
+  margin-top: 15px;
+}
+
+.reg_right {
+  float: right;
+  margin-top: 440px;
+  margin-right: 30px;
+}
+
+.reg_right > p:first-child {
+  font-size: 15px;
+}
+
+.reg_right p a {
+  color: crimson;
+}
+.reg_right p a:hover {
+  color: rgb(255, 225, 0);
+}
+.td_left {
+  width: 100px;
+  text-align: right;
+  height: 40px;
+}
+
+.td_right {
+  padding-left: 40px;
+}
+
+#username,
+#password,
+#password1,
+#Email,
+#rename,
+#Telphone,
+#Birthday,
+#checkcode {
+  width: 200px;
+  height: 30px;
+  border: 1px solid #a4a4a4;
+  border-radius: 8px;
+  padding-left: 10px;
+}
+#checkcode {
+  width: 100px;
+}
+#img_check {
+  vertical-align: middle;
+  height: 30px;
+  width: 95px;
+}
+#btn_sub {
+  margin-top: 10px;
+  float: left;
+  margin-left: 60px;
+  background: orangered;
+  color: whitesmoke;
+  width: 100px;
+  height: 40px;
+  border: 1px solid gray;
+}
+#btn_res {
+  margin-top: 10px;
+  background: orangered;
+  color: whitesmoke;
+  width: 100px;
+  height: 40px;
+  border: 1px solid gray;
+}
